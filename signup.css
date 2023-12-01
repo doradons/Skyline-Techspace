@@ -1,0 +1,232 @@
+body{
+    background-color:lightslategray;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.container-signup{  
+    width: 50%;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+
+}
+.home{
+    position:absolute;
+    top: 5.5%;
+    left: 10%;
+    font-size: 30px;
+}
+.home-next{
+    color:red;
+}
+
+
+input[type=text]{
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    text-indent: 20px;
+    margin-top: 20px;
+}
+input[type=text]:focus{
+    border-radius: 15px;
+    border: 1px solid lightblue;
+    outline: none;
+}
+
+::placeholder{
+    font-size: 20px;
+    color: lightblue;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.user{
+    position: absolute;
+    top:30px;
+    left:24%;
+    font-size: 20px;
+}
+
+.form-user{
+    position: relative;
+} 
+
+/* here is my email design */
+
+input[type=email]{
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    text-indent: 20px;
+    margin-top: 30px;
+
+}
+input[type=email]:focus{
+    border-radius: 15px;
+    border: 1px solid lightblue;
+    outline: none;
+}
+::placeholder{
+    font-size: 20px;
+    color: lightblue;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.email{
+    position: absolute;
+    top:40px;
+    left:24%;
+    font-size: 20px;
+}
+
+.form-email{
+    position: relative;
+}
+
+/* here is my phone number design */
+
+input[type=Tel]{
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    margin-top: 30px;
+
+}
+
+input[type=Tel]:focus{
+    border-radius: 15px;
+    border: 1px solid lightblue;
+    outline: none;
+}
+
+::placeholder{
+    font-size: 20px;
+    color: lightblue;
+    font-weight:bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* here is design for password */
+
+input[type=password]{
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    margin-top: 30px;
+
+}
+
+input[type=password]:focus{
+    border-radius: 15px;
+    border: 1px solid lightblue;
+    outline: none;
+}
+
+::placeholder{
+    font-size: 20px;
+    color: lightblue;
+    font-weight:bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* here is my sumbit button design */
+
+input[type=submit]{
+    border-radius: 15px;
+    border: none;
+    width: 50%;
+    padding: 15px 20px;
+    margin: 30px;
+    background-color:turquoise;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+
+
+/* here is the divider design */
+
+.divider{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.divider::before,.divider::after{
+content: '';
+padding: 1px;
+background-color:lightblue;
+flex: 1;
+margin: 20px 3px;
+}
+.divider-bg{
+    background-color: white;
+    padding: 15px 15px;
+    border-radius: 55%;
+    border: 1px solid lightblue;
+    font-size: 20px;
+
+}
+
+/* here is my social media design */
+
+.btn-social{
+    background-color: #3b5998;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.btn-social:nth-child(2){
+    background-color: #00acee;
+   
+}
+.btn-social:nth-child(3){
+    background-color:  #db4437;
+   
+}
+.container-signup p{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* here is my media query */
+
+@media (min-width:200px) and (max-width:900px){
+
+    .container-signup{  
+        width: 100%;
+        background-color: white;
+        margin: auto;
+        text-align: center;
+        padding: 20px;
+    
+    }
+
+    .btn-social{
+        margin: 5px;
+        border-radius: 10px;
+    }
+
+    .container-signup p{
+        padding: 20px;
+        font-weight: bold;
+        font-size: 15px;
+     }
+    body{
+    overflow-x: hidden;
+     }
+}
